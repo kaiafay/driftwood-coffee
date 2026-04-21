@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-screen min-h-[600px] overflow-hidden"
+      className="relative h-dvh min-h-[600px] overflow-hidden"
     >
       {/* Full-bleed background image */}
       <Image
