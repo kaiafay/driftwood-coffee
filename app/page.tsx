@@ -8,7 +8,7 @@ import ScrollReveal from '@/components/scroll-reveal'
 
 export default function Page() {
   return (
-    <main>
+    <main className="flex-1">
       <ScrollReveal />
       <Nav />
       <Hero />
