@@ -66,12 +66,9 @@ export default function Menu() {
         </div>
 
         {/* Menu grid — 2 col on desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-14">
-          {menuCategories.map((category, ci) => (
-            <div
-              key={category.name}
-              className={`reveal reveal-delay-${(ci % 4) + 1}`}
-            >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-14 reveal reveal-delay-1">
+          {menuCategories.map((category) => (
+            <div key={category.name}>
               {/* Category header */}
               <div className="flex items-center gap-3 mb-6 pb-4 border-b border-cream/15">
                 <h3
