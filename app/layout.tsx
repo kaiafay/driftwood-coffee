@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   title: 'Driftwood Coffee — Good coffee. Great company.',
   description:
     'A neighborhood café in Portland\'s inner east side. We source our beans from small Pacific Northwest roasters, bake everything in-house, and believe a good cup of coffee shouldn\'t be rushed.',
-  generator: 'v0.app',
 }
 
 export default function RootLayout({
